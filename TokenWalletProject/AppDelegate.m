@@ -74,7 +74,7 @@
 }
 - (void)setConfig{
     if (@available(iOS 13.0, *)) {
-        self.window.overrideUserInterfaceStyle = UIUserInterfaceStyleDark;
+        self.window.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
         [UITextField appearance].overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
         [UITextView appearance].overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
         [UIScrollView appearance].overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
